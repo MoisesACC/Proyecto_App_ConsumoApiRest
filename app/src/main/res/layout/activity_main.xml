@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Ingrese Datos"
+        android:textSize="24sp"
+        android:layout_gravity="center" />
+    <EditText
+        android:id="@+id/etAlumnoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Ingresa el ID Alumno"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnGetAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obtener Alumno" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Información del Alumno"
+        android:textSize="24sp"
+        android:layout_gravity="center" />
+
+    <!-- Entrada para los nombres del alumno -->
+    <EditText
+        android:id="@+id/etNombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa Nombres" />
+
+    <!-- Entrada para los apellidos del alumno -->
+    <EditText
+        android:id="@+id/etApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa Apellidos" />
+
+    <!-- Entrada para la carrera del alumno -->
+    <EditText
+        android:id="@+id/etCarrera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa Carrera" />
+
+    <!-- Entrada para el correo del alumno -->
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa Correo" />
+
+    <!-- Entrada para el teléfono del alumno -->
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa Teléfono" />
+
+    <!-- Botón para limpiar registro -->
+    <Button
+        android:id="@+id/btnLimpiarRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpiar Registro" />
+
+
+    <!-- Botón para agregar un alumno -->
+    <Button
+        android:id="@+id/btnAddAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Alumno" />
+
+    <!-- Botón para actualizar un alumno -->
+    <Button
+        android:id="@+id/btnUpdateAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Alumno" />
+
+    <!-- Botón para eliminar un alumno -->
+    <Button
+        android:id="@+id/btnDeleteAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Alumno" />
+
+    <!-- TextView para mostrar la información del alumno -->
+    <TextView
+        android:id="@+id/tvAlumnoInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Información del Alumno" />
+</LinearLayout>
